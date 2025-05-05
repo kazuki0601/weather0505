@@ -211,3 +211,11 @@ body::before {
   width: fit-content;
 }
 
+@media screen and (min-width: 769px) {
+  .section-message img {
+    height: 180px;
+    width: auto;
+    max-width: 300px;
+  }
+}
+
